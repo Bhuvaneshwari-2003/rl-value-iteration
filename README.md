@@ -56,6 +56,7 @@ The algorithm is as follows:
   *Initialize aaction-value function Q(s, a) arbitrarily for all states s and actions a.
   
   *For all the states s and all the action a of every state:
+  
       *Update the action-value function Q(s, a) using the Bellman equation.
       
       *Take the value function V(s) to be the maximum of Q(s, a) over all actions a.
@@ -98,6 +99,7 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 
 ## OUTPUT:
 ![image](https://github.com/Bhuvaneshwari-2003/rl-value-iteration/assets/94828604/fa01abd6-09a4-4344-a5a9-b4aa34b4a694)
+
 ![image](https://github.com/Bhuvaneshwari-2003/rl-value-iteration/assets/94828604/e5e0858e-509f-40a1-b998-8db15b805e03)
 
 
